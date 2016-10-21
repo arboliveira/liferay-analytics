@@ -1,0 +1,30 @@
+Bundle-ClassPath:\
+	.,\
+	lib/elasticsearch.jar,\
+	lib/compress-lzf.jar,\
+	lib/guava.jar,\
+	lib/hppc.jar,\
+	lib/jackson-core.jar,\
+	lib/jackson-dataformat-smile.jar,\
+	lib/joda-time.jar,\
+	lib/jsr166e.jar,\
+	lib/lucene-core.jar,\
+	lib/netty.jar,\
+	lib/t-digest.jar
+Bundle-Name: Liferay Analytics
+Bundle-SymbolicName: com.liferay.analytics
+Bundle-Version: 1.0.0
+Import-Package:\
+	!com.carrotsearch.*
+-includeresource:\
+	lib/elasticsearch.jar=elasticsearch-[0-9]*.jar,\
+	lib/compress-lzf.jar=compress-lzf-[0-9]*.jar,\
+	lib/guava.jar=guava-[0-9]*.jar,\
+	lib/hppc.jar=hppc-[0-9]*.jar,\
+	lib/jackson-core.jar=jackson-core-[0-9]*.jar,\
+	lib/jackson-dataformat-smile.jar=jackson-dataformat-smile-[0-9]*.jar,\
+	lib/joda-time.jar=joda-time-[0-9]*.jar,\
+	lib/jsr166e.jar=jsr166e-[0-9]*.jar,\
+	lib/lucene-core.jar=lucene-core-[0-9]*.jar,\
+	lib/netty.jar=netty-[0-9]*.jar,\
+	lib/t-digest.jar=t-digest-[0-9]*.jar
